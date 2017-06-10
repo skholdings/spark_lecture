@@ -16,6 +16,8 @@ wget https://github.com/skholdings/spark_lecture/raw/master/script.tar.gz
 
 > 압축 해제 및 예제 파일 HDFS 업로드
 
-tar xvf *.tar.gz
+tar xvf script.tar.gz
+
+tar xvf sample_data.tar.gz
 
 hadoop fs -put lecture/data/* /user/spark
