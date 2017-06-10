@@ -1,5 +1,9 @@
 # spark_lecture
 
+> Putty로 SSH 접속
+
+localhost:2222
+
 > Spark 계정으로 접속
 
 su - spark
