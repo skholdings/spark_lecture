@@ -16,13 +16,9 @@ su - spark
 
 wget https://github.com/skholdings/spark_lecture/raw/master/sample_data.tar.gz
 
-wget https://github.com/skholdings/spark_lecture/raw/master/script.tar.gz
-
 <br>
 
 > 압축 해제 및 예제 파일 HDFS 업로드
-
-tar xvf script.tar.gz
 
 tar xvf sample_data.tar.gz
 
