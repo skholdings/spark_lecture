@@ -1,5 +1,11 @@
 # Spark 실습 준비
 
+> 불필요한 서비스 내리기 (Ambari)
+
+http://localhost:8080
+
+<bt>
+
 > Putty로 SSH 접속
 
 localhost:2222
