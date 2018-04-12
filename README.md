@@ -4,6 +4,8 @@
 
 http://localhost:8080
 
+ID / Password : raj_ops / raj_ops
+
 <br>
 
 > Putty로 SSH 접속
