@@ -60,7 +60,7 @@ ID / Password : root / hadoop (패스워드 변경)
 
 # Spark Application 실습
 
-> 05.애플리케이션 개발 및 배포
+> 05. 애플리케이션 개발 및 배포
 
 [spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_counter.tar.gz
 
@@ -70,7 +70,7 @@ ID / Password : root / hadoop (패스워드 변경)
 
 <br>
 
-> 09.Spark 스트리밍 고급
+> 09. Spark 스트리밍 고급
 
 [spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_stream_counter.tar.gz
 
