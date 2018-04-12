@@ -1,4 +1,4 @@
-# spark 사전 작업
+# Spark 실습 준비
 
 > Putty로 SSH 접속
 
@@ -38,7 +38,7 @@ ID / Password : root / hadoop (패스워드 변경)
 
 [spark@sandbox-hdp ~]$ spark-shell
 
-<bt>
+<br>
 
 # Spark Application 빌드 환경 설정
 
