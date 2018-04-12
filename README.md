@@ -1,4 +1,4 @@
-# spark_lecture
+# spark 사전 작업
 
 > Putty로 SSH 접속
 
@@ -37,3 +37,13 @@ ID / Password : root / hadoop (패스워드 변경)
 > Spark Shell 실행
 
 [spark@sandbox-hdp ~]$ spark-shell
+
+<bt>
+
+# Spark Application 빌드 환경 설정
+
+> sbt 설치 (root 사용자)
+
+[root@sandbox-hdp ~]$ wget https://dl.bintray.com/sbt/rpm/sbt-1.1.2.rpm
+
+[root@sandbox-hdp ~]$ yum install sbt-1.1.2.rpm
