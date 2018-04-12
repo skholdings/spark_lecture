@@ -3,12 +3,19 @@
 > Putty로 SSH 접속
 
 localhost:2222
+root / hadoop (패스워드 변경)
 
 <br>
 
-> Spark 계정으로 접속
+> Spark 사용자로 변경
 
 su - spark
+
+<br>
+
+> Spark 버전 설정
+
+export SPARK_MAJOR_VERSION=2
 
 <br>
 
