@@ -4,7 +4,7 @@
 
 localhost:2222
 
-root / hadoop (패스워드 변경)
+ID / Password : root / hadoop (패스워드 변경)
 
 <br>
 
