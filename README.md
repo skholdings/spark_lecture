@@ -2,15 +2,15 @@
 
 > Putty로 SSH 접속
 
-[spark@sandbox-hdp ~]$ localhost:2222
+localhost:2222
 
-[spark@sandbox-hdp ~]$ root / hadoop (패스워드 변경)
+root / hadoop (패스워드 변경)
 
 <br>
 
 > Spark 사용자로 변경
 
-[spark@sandbox-hdp ~]$ su - spark
+[root@sandbox-hdp ~]$ su - spark
 
 <br>
 
