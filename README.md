@@ -48,6 +48,12 @@ ID / Password : root / hadoop (패스워드 변경)
 
 <br>
 
+> Spark UI 접속
+
+http://localhost:4040
+
+<br>
+
 # Spark Application 빌드 환경 설정
 
 > sbt 설치 (root 사용자)
@@ -58,9 +64,15 @@ ID / Password : root / hadoop (패스워드 변경)
 
 <br>
 
+> YARN Resource Manager 접속 확인
+
+http://localhost:8088
+
+<br>
+
 # Spark Application 실습
 
-> 05. 애플리케이션 개발 및 배포
+> 05.애플리케이션 개발 및 배포
 
 [spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_counter.tar.gz
 
@@ -70,7 +82,7 @@ ID / Password : root / hadoop (패스워드 변경)
 
 <br>
 
-> 09. Spark 스트리밍 고급
+> 09.Spark 스트리밍 고급
 
 [spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_stream_counter.tar.gz
 
