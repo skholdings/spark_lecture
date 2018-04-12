@@ -55,3 +55,31 @@ ID / Password : root / hadoop (패스워드 변경)
 [root@sandbox-hdp ~]$ wget https://dl.bintray.com/sbt/rpm/sbt-1.1.2.rpm
 
 [root@sandbox-hdp ~]$ yum install sbt-1.1.2.rpm
+
+<br>
+
+# Spark Application 실습
+
+> 05.애플리케이션 개발 및 배포
+
+[spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_counter.tar.gz
+
+<br>
+
+> 09.Spark 스트리밍 고급
+
+[spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_stream_counter.tar.gz
+
+[spark@sandbox-hdp ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_generator.tar.gz
+
+<br>
+
+> 웹 로그 생성기 실행
+
+[spark@sandbox-hdp web_log_generator]$ nohup python noise_apache.py &
+
+<br>
+
+> 생성되는 로그를 테일링하여 Kafka로 보내기
+
+[spark@sandbox-hdp web_log_generator]$ tail -f noise_apache.log | /usr/hdp/current/kafka-broker/bin/kafka-console-producer.sh --topic weblog --broker-list sandbox-hdp.hortonworks.com:6667
