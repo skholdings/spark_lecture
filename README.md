@@ -4,7 +4,7 @@
 
 http://localhost:8080
 
-<bt>
+<br>
 
 > Putty로 SSH 접속
 
