@@ -18,7 +18,7 @@ ID / Password : skcc / skcc1234
 
 [skcc@localhost ~]$ tar xvf sample_data.tar.gz
 
-[skcc@localhost ~]$ hadoop fs -put lecture/data/* /user/spark
+[skcc@localhost ~]$ hadoop fs -put lecture/data/* /user/skcc
 
 <br>
 
@@ -54,6 +54,8 @@ http://localhost:8088
 
 [skcc@localhost ~]$ tar xvf web_log_counter.tar.gz
 
+[skcc@localhost ~]$ cd web_log_counter
+
 [skcc@localhost web_log_counter]$ sbt package
 
 <br>
@@ -64,6 +66,8 @@ http://localhost:8088
 
 [skcc@localhost ~]$ tar xvf web_log_stream_counter.tar.gz
 
+[skcc@localhost ~]$ cd web_log_stream_counter
+
 [skcc@localhost web_log_stream_counter]$ sbt assembly
 
 <br>
@@ -73,6 +77,8 @@ http://localhost:8088
 [skcc@localhost ~]$ wget https://github.com/skholdings/spark_lecture/raw/master/web_log_generator.tar.gz
 
 [skcc@localhost ~]$ tar xvf web_log_generator.tar.gz
+
+[skcc@localhost ~]$ cd web_log_generator
 
 [skcc@localhost web_log_generator]$ nohup python noise_apache.py &
 
